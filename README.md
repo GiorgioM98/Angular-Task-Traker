@@ -1,7 +1,7 @@
 # AngularApp
 
-Questo progetto consiste nel creare un Task Traker personale che ha il compito di tener conto delle varie attività inserite, con tanto di data e ora!
-In questo progetto, utilizziamo db.json insieme a json-server per simulare un backend RESTful per il nostro progetto Angular. Questo README spiega come avviare e utilizzare json-server per testare l'applicazione localmente.
+This project consists of creating a personal Task Tracker which has the task of taking into account the various activities entered, complete with date and time!
+In this project, we use db.json together with json-server to simulate a RESTful backend for our Angular project. This README explains how to start and use json-server to test your application locally.
 
 
 ## Table of Contents
@@ -13,26 +13,25 @@ In questo progetto, utilizziamo db.json insieme a json-server per simulare un ba
 
 ## Introduction
 
-REQUISITI:
+REQUIREMENTS:
 
-Prima di iniziare, assicurati di avere installato Node.js sul tuo computer. 
+Before you get started, make sure you have Node.js installed on your computer.
 
-INSTALLAZIONE:
+INSTALLATION:
 
-1. Clona questo repository sul tuo computer: git clone https://github.com/GiorgioM98/Angular-Task-Traker.git
-2. Naviga nella directory del progetto: cd Angular-Task-Traker
-3. Installa le dipendenze del progetto eseguendo: npm install
+1. Clone this repository on your computer: git clone https://github.com/GiorgioM98/Angular-Task-Traker.git
+2. Navigate to the project directory: cd Angular-Task-Traker
+3. Install the project dependencies by running: npm install
 
-UTILIZZO DI DB-JSON CON JSON-SERVER: 
+USING DB-JSON WITH JSON-SERVER:
 
-''json-server'' è uno strumento che ci consente di creare un server RESTful utilizzando un file JSON come nostro "database". Ecco come farlo funzionare:
+''json-server'' is a tool that allows us to create a RESTful server using a JSON file as our "database". Here's how to make it work:
 
-1. Assicurati di essere nella directory principale del progetto.
-2. Esegui il seguente comando per avviare il server json-server e utilizzare db.json come database: json-server --watch db.json --port 5000
+1. Make sure you are in the root directory of the project.
+2. Run the following command to start the json-server server and use db.json as the database: json-server --watch db.json --port 5000
 
-* --watch db.json: Questa opzione indica a json-server di monitorare il file db.json per apportare eventuali modifiche e rifletterle nel server.
-* --port 5000: Specifica la porta su cui json-server sarà in ascolto. Puoi modificare questo valore in base alle tue esigenze, ma assicurati che non sia in conflitto con altre applicazioni in esecuzione sulla stessa porta.
-
+* --watch db.json: This option tells json-server to monitor the db.json file for any changes and reflect them to the server.
+* --port 5000: Specify the port that json-server will listen on. You can change this value to suit your needs, but make sure it does not conflict with other applications running on the same port.
 
 
 ## Structure
