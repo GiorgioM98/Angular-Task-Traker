@@ -1,4 +1,4 @@
-# AngularApp
+# Task Traker
 
 This project consists of creating a personal Task Tracker which has the task of taking into account the various activities entered, complete with date and time!
 In this project, we use db.json together with json-server to simulate a RESTful backend for our Angular project. This README explains how to start and use json-server to test your application locally.
